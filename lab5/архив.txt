@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+void main()
+{
+	 int st[3], sr[3], r[3];
+
+	cout << "the first line: ";
+	cin >> st[3];
+
+	cout << "the second line: ";
+	cin >> sr[3];
+
+	r[0] = st[0] + sr[0];
+	cout << "the result is: " << r[0];
+
+	r[1] = st[1] + sr[1];
+	cout << r[1];
+
+	r[2] = st[2] + sr[2];
+	cout << r[2];
+
+	cin.get();
+	cin.get();
+}
